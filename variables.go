@@ -12,5 +12,15 @@ func main() {
 	var altura float64 = 1.75
 	fmt.Println(altura)
 
-	//Variable cadena de Texto
+	//Variable Cadena de Texto
+	var nombre string = "Juan"
+	fmt.Println(nombre)
+
+	//Variable Booleano
+	var esEstudiante bool = true
+	fmt.Println(esEstudiante)
+
+	//Variable Arreglo (Array)
+	var numeros [5]int = [5]int{1, 2, 3, 4, 5}
+	fmt.Println(numeros)
 }
